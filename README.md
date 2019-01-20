@@ -1,6 +1,6 @@
 # SearchEngine
 
-Error and the closest matchable image found through XOR between test image and encoded images from the training data
+Error and the closest matchable image found through XOR between test image and encoded images(with noise addition) from the training data
 
 ![screenshot from 2019-01-21 00-03-54](https://user-images.githubusercontent.com/23450113/51446628-095b2e00-1d15-11e9-9140-d5b2b7ae6a43.png)
 
