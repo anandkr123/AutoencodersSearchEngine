@@ -2,7 +2,7 @@
 
 Error and the closest matchable image found through XOR between test image and encoded images(with noise addition) from the training data
 
-![screenshot from 2019-01-21 00-03-54](https://user-images.githubusercontent.com/23450113/51446628-095b2e00-1d15-11e9-9140-d5b2b7ae6a43.png)
+![Screenshot from 2019-05-26 10-20-17](https://user-images.githubusercontent.com/23450113/58379165-6eaf7c00-7fa0-11e9-8ffc-9e58c6044dad.png)
 
 
 The closest matchable image 
