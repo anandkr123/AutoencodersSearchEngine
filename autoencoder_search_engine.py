@@ -140,7 +140,7 @@ with tf.Session() as sess:
             saver.save(sess, './autoencoder-model', global_step=i, write_meta_graph=False)
 
 
-# Creating list of train images and its encoded representation
+# Creating list of test images and its encoded representation
 
     for i in range(num_steps+1):
         # MNIST test set
