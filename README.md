@@ -1,11 +1,17 @@
 # Autoencoder SearchEngine
 
 Search Engine using Autoencoder.
-Description: Use Stacked Autoencoders to learn low dimensional rich hidden representation of
+
+Description:
+
+Use Stacked Autoencoders to learn low dimensional rich hidden representation of
 different type of images.
+
 ▪ Addition of noise in the encoding layer to force hidden representation to be either 0 or 1 and to help in learning the features from the image. 
+
 ▪ Images part of repository to be searched for, are encoded in a hidden representation of 0’s and 1’s
 and stored in a matrix.
+
 ▪ Query image is passed to the autoencoder to extract it’s hidden representation,which is XORed with
 the repository matrix to get a score of similarity of the hidden representation with each of the image
 representation in the matrix
