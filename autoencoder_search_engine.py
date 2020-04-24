@@ -10,8 +10,8 @@ mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Training Parameters,             # C H A N G E D #
 learning_rate = 0.001
-num_steps = 101
-batch_size = 3000
+num_steps = 3000
+batch_size = 200
 n=4
 image = []
 encoding = []
