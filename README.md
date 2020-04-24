@@ -1,11 +1,14 @@
 # SearchEngine
 
-Error and the closest matchable image found through XOR between test image and encoded images(with noise addition) from the training data
+Training error and the closest matchable image found through XOR between test image and encoded images(with noise addition) from the training data. 
+Saving the model after every 1000th iteration, stopped when validation loss is around 0.50
 
-![Screenshot from 2019-05-26 10-20-17](https://user-images.githubusercontent.com/23450113/58379165-6eaf7c00-7fa0-11e9-8ffc-9e58c6044dad.png)
+![autoencoder_loss](https://user-images.githubusercontent.com/23450113/80243698-f8ac0d00-8667-11ea-94ee-a0beb4829c19.png)
 
 
 The closest matchable image 
+The bottom image represent the image that we are searching for in the matrix
+The top 3 images represents the closest matched images from the repository matrix(with the rightmost having the highest score)
+![best1](https://user-images.githubusercontent.com/23450113/80243631-dd410200-8667-11ea-99c0-5bc832c83327.png)
+![best_1](https://user-images.githubusercontent.com/23450113/80243637-df0ac580-8667-11ea-8808-739b18ddc17c.png)
 
-
-![figure_1](https://user-images.githubusercontent.com/23450113/51446630-0bbd8800-1d15-11e9-8a78-b610f9644b22.png)
