@@ -42,7 +42,7 @@ biases = {
 }
 
 # Encoding the image
-# Building the encoder, used only during training as it contains noise
+# Building the encoder, the contraction of the image
 def encoder(x,y):
     # Encoder Hidden layer with sigmoid activation #1
     noise = np.random.normal(0.5, 0.3, num_input)
@@ -59,7 +59,7 @@ def encoder(x,y):
                                    biases['encoder_b2']))
     return layer_2
 
-# Building the decoder
+# Building the decoder, reconstruction of the image
 def decoder(x):
     # Decoder Hidden layer with sigmoid activation #1
     layer_1 = tf.nn.sigmoid(tf.add(tf.matmul(x, weights['decoder_h1']),
