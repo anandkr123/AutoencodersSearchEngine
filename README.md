@@ -1,7 +1,7 @@
 # Autoencoder SearchEngine
-
-Search Engine using Autoencoder.
-
+ 
+                                   Search Engine using Autoencoder.
+  
 Description:
 
 Use Stacked Autoencoders to learn low dimensional rich hidden representation of
@@ -25,9 +25,9 @@ Saving the model after every 1000th iteration, stopped when validation loss is a
 
 
 The closest matchable image 
-The bottom image represent the image that we are searching for in the matrix
+The BOTTOM IMAGE represent the image that we are SEARCHING for in the MATRIX
 
-The top 3 images represents the closest matched images from the repository matrix(with the rightmost having the highest score)
+The TOP 3 IMAGES represents the CLOSEST MATCHED IMAGES from the repository matrix(with the RIGHTMOST having the HIGHEST SCORE)
 ![best1](https://user-images.githubusercontent.com/23450113/80243631-dd410200-8667-11ea-99c0-5bc832c83327.png)
 ![best_1](https://user-images.githubusercontent.com/23450113/80243637-df0ac580-8667-11ea-8808-739b18ddc17c.png)
 
