@@ -1,6 +1,6 @@
 # Autoencoder SearchEngine
  
-                                   Search Engine using Autoencoder.
+                                           Search Engine using Autoencoder.
   
 Description:
 
