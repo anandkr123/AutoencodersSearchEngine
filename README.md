@@ -25,7 +25,7 @@ Saving the model after every 1000th iteration, stopped when validation loss is a
 
 
 The closest matchable image 
-The BOTTOM IMAGE represent the image that we are SEARCHING for in the MATRIX
+The BOTTOM IMAGE represent the image to be SEARCHED in the MATRIX
 
 The TOP 3 IMAGES represents the CLOSEST MATCHED IMAGES from the repository matrix(with the RIGHTMOST having the HIGHEST SCORE)
 ![best1](https://user-images.githubusercontent.com/23450113/80243631-dd410200-8667-11ea-99c0-5bc832c83327.png)
